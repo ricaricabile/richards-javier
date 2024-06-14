@@ -1,0 +1,18 @@
+.home {
+    background-image:url("../../assets/homepagever.jpg");
+    /* overflow: hidden; */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.homemessage {
+    background-color: 'black';
+    font-style: 'Italic'; 
+    width: '50%'; 
+    color:'green'; 
+    padding: '20px'; 
+    text-align:'left'; 
+    border: '5px solid #FFFFFF'; 
+    border-radius: '8px';
+    font-size: '20px';
+}

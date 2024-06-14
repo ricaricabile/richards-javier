@@ -1,0 +1,8 @@
+.home {
+    background-image:url("../../assets/homepagever.jpg");
+    /* overflow: hidden; */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
