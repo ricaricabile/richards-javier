@@ -1,5 +1,3 @@
-This is a calculator application you can perform basic mathematical operations.
-
-This application is built using React.JS and ECMAScript 2023 javascript and has an inbuilt redux state management scaffold that I made you should see more of redux on my other projects.
-
-This application is running on heroku link > https://basic-calculator-be080dcf00c0.herokuapp.com/
+Hello this is my Landing page > https://mr-javier-bardem-2031a2c26a52.herokuapp.com/
+I created this project using React-JS CSS the latest libraries see my website it links to my other projects
+this will help you get to know my better as a developer and as an individual you will get to feel me a little.
