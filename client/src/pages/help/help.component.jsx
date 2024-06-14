@@ -17,13 +17,15 @@ const MainDivCSS = {
     width: '100%', 
     // height:'50%',
     display: 'flex', 
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    zIndex: 123
 }
 const NestedDivCSS = {
     width: '70%',
     height:'100%', 
     paddingLeft: '15px', 
     alignSelf:'center',
+    zIndex: 123
     // backgroundColor: 'gray'
 };
 const HelpPage = () => (<>

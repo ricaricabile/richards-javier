@@ -9,7 +9,7 @@ import {
 const ImageStyleCSS = { 
   verticalAlign: 'middle', 
   border: '5px solid #FFFFFF',
-  filter: 'grayscale(25%)' 
+  filter: 'grayscale(25%)'
 };
 const CaptionStyleCSS = { 
   fontFamily:'Snell Roundhand, cursive', 
@@ -22,11 +22,11 @@ const CaptionStyleCSS = {
 };
 const Header = () => (
   <HeaderNavigator>
-      <NavItemsMenu>
+      <NavItemsMenu style={{zIndex: 123}}>
       <NavItems to='/'>HOME</NavItems>
       <NavItems to='/about'>ABOUT</NavItems>
       <NavItems to='/services'>SERVICES</NavItems>
-      <NavItems to='/help'>HELP US</NavItems>
+      <NavItems to='/help'>LINKS</NavItems>
     </NavItemsMenu>
     <ProfilePictureContainer to='/'>
     <img width="200px" src={JBDM} style={ImageStyleCSS} ></img>

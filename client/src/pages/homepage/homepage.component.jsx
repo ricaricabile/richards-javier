@@ -6,7 +6,7 @@ import Header from '../../components/header/header.component';
 const HomeBodyMessageCSS = {
     backgroundColor: 'black',
     fontStyle: 'Italic', 
-    width: '50%', 
+    width: 'fit-content', 
     color:'green', 
     padding: '20px', 
     textAlign:'left', 
@@ -18,21 +18,23 @@ const MainDivCSS = {
     width: '100%', 
     height:'50%',
     display: 'flex', 
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
 }
 const NestedDivCSS = {
     width: '50%',
     height:'50%', 
     paddingLeft: '15px', 
-    alignSelf:'center'};
+    alignSelf:'center',
+    zIndex: 123};
 const HomePage = () => (
     <div className='home' >
         <Header />
         <div style={MainDivCSS}>
             <div style={NestedDivCSS}>
             <p style={HomeBodyMessageCSS}>
-                Hello there! I'm a Computer Programmer. My Friend's calls me Mr. Richards,
-                Browse my website to get to know me personally and the services I offer.
+                Hello there! I'm a Computer Programmer. <br/>
+                My Friend's calls me Mr. Richards,<br/>
+                Browse my website to get to know me <br/>personally and the services I offer.
             </p>
             </div>
             <p style={{width: '200px'}}></p>

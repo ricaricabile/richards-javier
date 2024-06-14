@@ -24,6 +24,7 @@ const NestedDivCSS = {
     height:'100%', 
     paddingLeft: '15px', 
     alignSelf:'center',
+    zIndex: 123
     // backgroundColor: 'gray'
 };
 const ServicesPage = () => (<>
