@@ -31,7 +31,7 @@ const HomePage = () => (
         <Header />
         <div style={MainDivCSS}>
             <div style={NestedDivCSS}>
-            <p style={HomeBodyMessageCSS}>
+            <p style={HomeBodyMessageCSS} className='helloMessageMobile'>
                 Hello there! I'm a Computer<br/> Programmer. 
                 My Friend's<br/> calls me Mr. Richards,<br/>
                 Browse my website to get to<br/> know me personally and<br/> the services I offer.
