@@ -35,9 +35,8 @@ const ServicesPage = () => (<>
             
             <p style={HomeBodyMessageCSS}>
             <h2 style={{color: 'green'}}>World Boxing News Website</h2>
-            This application fetches the latest boxing news using this api ( <a href={'https://newsapi.org/'} >https://newsapi.org/</a> ) The frontend used in this application is React JS and for the Backend Node JS with express js framework. This application uses React-Redux for state management. This application is partially running on Heroku see link ( <a href="https://boxing-news-website-live-eb4bad6591ca.herokuapp.com/">https://boxing-news-website-live-eb4bad6591ca.herokuapp.com</a> ).
-            the app is only partially running there. heroku restricts other routes from being rendered i think theres an additional payment for that. im short on cash at this moment you can donate if you want send me a message here on github haha
-            to fully see the application you need to run this project locally please clone the project in your local
+            This application fetches the latest boxing news using this api ( <a href={'https://newsapi.org/'} >https://newsapi.org/</a> ) The frontend used in this application is React JS and for the Backend Node JS with express js framework. This application uses React-Redux for state management. This application is running on Heroku see link ( <a href="https://boxing-news-website-live-eb4bad6591ca.herokuapp.com/">https://boxing-news-website-live-eb4bad6591ca.herokuapp.com</a> ).
+            please clone the project in your local
             then go to the root directory of the project you should see files client server.js etc. enter npm install next go the the client folder and enter npm install again
             then go back to the root directory you should see files client server.js etc. from here enter npm run dev
             The application is on the master branch enter this command in your command line git checkout master
