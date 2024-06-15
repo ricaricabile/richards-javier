@@ -32,9 +32,9 @@ const HomePage = () => (
         <div style={MainDivCSS}>
             <div style={NestedDivCSS}>
             <p style={HomeBodyMessageCSS}>
-                Hello there! I'm a Computer Programmer. <br/>
-                My Friend's calls me Mr. Richards,<br/>
-                Browse my website to get to know me <br/>personally and the services I offer.
+                Hello there! I'm a Computer<br/> Programmer. 
+                My Friend's<br/> calls me Mr. Richards,<br/>
+                Browse my website to get to<br/> know me personally and<br/> the services I offer.
             </p>
             </div>
             <p style={{width: '200px'}}></p>
