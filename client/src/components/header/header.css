@@ -9,6 +9,9 @@
     .rightsection {
          text-align: end;
     }
+    .itemsReact {
+        padding: 10px 4px !important;
+    }
   }
   .rightsection { 
         padding-top: 35px;

@@ -23,10 +23,10 @@ const CaptionStyleCSS = {
 const Header = () => (
   <HeaderNavigator>
       <NavItemsMenu style={{zIndex: 123}}>
-      <NavItems to='/'>HOME</NavItems>
-      <NavItems to='/about'>ABOUT</NavItems>
-      <NavItems to='/services'>SERVICES</NavItems>
-      <NavItems to='/help'>LINKS</NavItems>
+      <NavItems to='/' className='itemsReact'>HOME</NavItems>
+      <NavItems to='/about' className='itemsReact'>ABOUT</NavItems>
+      <NavItems to='/services' className='itemsReact'>SERVICES</NavItems>
+      <NavItems to='/help' className='itemsReact'>LINKS</NavItems>
     </NavItemsMenu>
     <div className='rightsection'>
     <ProfilePictureContainer to='/'>
