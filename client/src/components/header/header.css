@@ -6,4 +6,10 @@
         font-size: 10px;
         width: 100px;
     }
+    .rightsection {
+         text-align: end;
+    }
+  }
+  .rightsection { 
+        padding-top: 35px;
   }

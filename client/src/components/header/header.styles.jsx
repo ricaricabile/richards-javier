@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const ProfilePictureContainer = styled(Link)`
   height: 100%;
-  width: 200px;
-  padding-top: 35px;
+  width: inherit;
 `;
 
 export const HeaderNavigator = styled.div`

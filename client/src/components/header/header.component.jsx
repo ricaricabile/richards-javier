@@ -19,7 +19,6 @@ const CaptionStyleCSS = {
   color: 'red', 
   textAlign:'center', 
   backgroundColor:'white', 
-  margin:'0'
 };
 const Header = () => (
   <HeaderNavigator>
@@ -29,10 +28,12 @@ const Header = () => (
       <NavItems to='/services'>SERVICES</NavItems>
       <NavItems to='/help'>LINKS</NavItems>
     </NavItemsMenu>
+    <div className='rightsection'>
     <ProfilePictureContainer to='/'>
     <img width="200" src={JBDM} style={ImageStyleCSS} ></img>
     <figcaption style={CaptionStyleCSS}>Mr. Richards</figcaption>
     </ProfilePictureContainer>
+    </div>
   </HeaderNavigator>
 );
 
