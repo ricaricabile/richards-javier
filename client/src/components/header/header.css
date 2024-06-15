@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     img {
       width: 100px;
     }
@@ -9,6 +9,11 @@
     .rightsection {
          text-align: end;
     }
+    .itemsReact {
+        padding: 10px 4px !important;
+    }
+  }
+  @media only screen and (max-width: 627px) {
     .itemsReact {
         padding: 10px 4px !important;
     }
