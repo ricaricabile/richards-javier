@@ -1,5 +1,6 @@
 import React from 'react';
 import JBDM from  '../../assets/javier.png';
+import './header.css';
 import {
   HeaderNavigator,
   NavItemsMenu,
@@ -29,7 +30,7 @@ const Header = () => (
       <NavItems to='/help'>LINKS</NavItems>
     </NavItemsMenu>
     <ProfilePictureContainer to='/'>
-    <img width="200px" src={JBDM} style={ImageStyleCSS} ></img>
+    <img width="200" src={JBDM} style={ImageStyleCSS} ></img>
     <figcaption style={CaptionStyleCSS}>Mr. Richards</figcaption>
     </ProfilePictureContainer>
   </HeaderNavigator>
